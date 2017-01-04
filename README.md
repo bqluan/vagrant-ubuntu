@@ -1,4 +1,4 @@
-# Ubuntu 16.04 for Chinese Developers
+# Ubuntu 14.04 for Chinese Developers
 
 ## Building the box
 
@@ -6,10 +6,10 @@
 
 2. Fetch the latest version of our base box
 
-        $ vagrant box update --box ubuntu/xenial64
+        $ vagrant box update --box ubuntu/trusty64
 
     The box will be stored in version-specific directories under
-    `~/.vagrant.d/boxes/ubuntu-VAGRANTSLASH-xenial64/`.  Find the path to the `.ovf` file for the
+    `~/.vagrant.d/boxes/ubuntu-VAGRANTSLASH-trusty64/`.  Find the path to the `.ovf` file for the
     latest version of the box.  In the following step, this path will be referred to as
     `$UBUNTU_OVF`.
 
