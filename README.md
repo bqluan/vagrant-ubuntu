@@ -24,7 +24,7 @@
 
 4. Verify your box locally
 
-        $ vagrant box add --name ubuntu16 packer_virtualbox-ovf_virtualbox.box
+        $ vagrant box add -f metadata.json
 
-    This will make a vagrant box named `ubuntu16` locally available to vagrant
+    This will make a vagrant box named `bqluan/vagrant` locally available to vagrant
     (i.e. not on Vagrant Cloud).
